@@ -1,0 +1,45 @@
+.services_section {
+    position: absolute;
+    bottom: -1000px;
+}
+
+.card {
+    background: var(--color-bg);
+    color: white;
+}
+
+.btn {
+    background: var(--color-primary);
+}
+
+.services_title {
+    position: relative;
+    top: -50px;
+    left: 550px;
+    font-size: 70px;
+    padding: 10px;
+    font-weight: 10px;
+    /* color: var(--color-primary); */
+}
+
+/* .FED_card {
+    position: relative;
+    right: 150px;
+} */
+
+.html_card {
+    position: relative;
+    left: 10px;
+    width: 370px;
+    top: 30px;
+}
+
+.css_card {
+    position: relative;
+    left: 80px;
+}
+
+.js_card {
+    position: relative;
+    left: 150px;
+}

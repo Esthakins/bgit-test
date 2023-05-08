@@ -1,0 +1,15 @@
+.footer_section {
+    position: absolute;
+    bottom: -1900px;
+}
+
+.footer_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: var(--color-primary);
+    
+    
+}
+

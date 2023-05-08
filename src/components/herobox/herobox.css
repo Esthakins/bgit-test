@@ -1,0 +1,25 @@
+.ME {
+        background: linear-gradient(var(--color-primary), transparent);
+        width: 20rem;
+        height: 27rem;
+        position: absolute;
+        left: calc(50% - 10rem); 
+        /* transform: translateX(-50%); - does the same thing as
+         left: calc(50% -9.5rem) = image isn placed 50% from the left
+         and it is subtracting half of the width of the image down 
+         from 19rem to 9.5rem = this puts in right in the middle  */
+         top: 150px;
+         margin-top: 3rem;
+         border-radius: 12rem 12rem 0 0; 
+         /* border radius for the image */
+         overflow: hidden;
+         padding: 3rem 1.5rem 1.5rem 1.5rem;
+         /* padding to push it the image down */
+}
+
+.herobox_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
